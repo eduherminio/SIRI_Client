@@ -3,8 +3,6 @@
 #include "stdafx.h"
 #include <gtest/gtest.h>
 
-//#include "CACT/ca_ct.h"
-
 #include "boost/date_time/gregorian/gregorian.hpp"
 #include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_generators.hpp>

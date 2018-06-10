@@ -102,7 +102,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;WITH_C_LOCALE;WITH_NONAMESPACES;  %(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\external\googletest\googletest\include; C:\external\threadpool_boost_dir; C:\external\Common;C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\external\googletest\googletest\include; C:\external\SIRI_External_Dependencies;C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj</AdditionalOptions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
@@ -139,7 +139,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;WITH_C_LOCALE;WITH_NONAMESPACES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\external\googletest\googletest\include; C:\external\threadpool_boost_dir; C:\external\Common;C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\external\googletest\googletest\include; C:\external\SIRI_External_Dependencies;C:\external\boost_1_62_0;</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj </AdditionalOptions>
     </ClCompile>
     <Link>
