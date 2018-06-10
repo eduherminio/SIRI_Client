@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+SIRI_Client_generation/*
+!SIRI_Client_generation.bat

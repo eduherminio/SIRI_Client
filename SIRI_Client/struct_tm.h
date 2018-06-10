@@ -92,7 +92,7 @@ A commercial use license is available from Genivia, Inc., contact@genivia.com
 /** externally declared ("volatila"e).
     Declared here for soapcpp2 to produce soap_dup_xsd__dateTime() */
 	//extern typedef volatile struct tm
-	//JJLL cambio tm por xsd__dateTime__ aquí y en struct_tm.c para que no se solape con time.h:tm
+	//cambio tm por xsd__dateTime__ aquí y en struct_tm.c para que no se solape con time.h:tm
 typedef struct xsd__dateTime__
 {	int	tm_sec;		///< seconds (0 - 60)
 	int	tm_min;		///< minutes (0 - 59)

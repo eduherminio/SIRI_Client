@@ -24314,8 +24314,8 @@ class ns3__AccessibilityLimitationStructure : public xsd__anyType
 /// <PRE><BLOCKQUOTE>
 ///   Validty condition governing applicability of LIMITATION.
 /// </BLOCKQUOTE></PRE>
-/// Element "ValidityConditionJJLL" of XSD type "http://www.ifopt.org.uk/ifopt":ValidityConditionStructure.
-    ns4__ValidityConditionStructure*     ValidityConditionJJLL          0;	///< Optional element.
+/// Element "ValidityCondition" of XSD type "http://www.ifopt.org.uk/ifopt":ValidityConditionStructure.
+    ns4__ValidityConditionStructure*     ValidityCondition          0;	///< Optional element.
 //  BEGIN GROUP <xs:group name="MobilityLimitationGroup">
 /// <PRE><BLOCKQUOTE>
 ///   Group of mobility LIMITATIONs.
